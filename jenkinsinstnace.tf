@@ -11,8 +11,8 @@ terraform {
 
 provider "aws"{
     region   = "us-east-1"
-    access_key = "var.KnockKnock"
-    secret_key = "var.Confirmed"
+    access_key = "var.myaccesskey"
+    secret_key = "var.mysecretkey"
 }
 
 resource "aws_instance" "jenkins20_ec2" {
