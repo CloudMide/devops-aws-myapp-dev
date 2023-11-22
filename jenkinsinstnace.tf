@@ -1,3 +1,5 @@
+
+
 terraform {
  required_providers {
     aws = {
@@ -9,6 +11,8 @@ terraform {
 
 provider "aws"{
     region   = "us-east-1"
+    access_key = "KnockKnock"
+    secret_key = "Confirmed"
 }
 
 resource "aws_instance" "jenkins20_ec2" {
