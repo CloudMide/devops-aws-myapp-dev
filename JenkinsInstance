@@ -23,7 +23,7 @@ resource "aws_instance" "jenkins20_ec2" {
 
 
   tags = {
-    Name = "Jenkins20"
+    Name = "Jenkins"
   }
 
   root_block_device {
